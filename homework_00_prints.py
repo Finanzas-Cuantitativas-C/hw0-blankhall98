@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct 12 14:37:42 2020
-
-@author: Meva
+@author: BlankHall
 """
 import json
 # import libraries and functions
@@ -25,7 +23,7 @@ import requests
 
 
 #Escribe aqui tu numero de cuenta. Si tienes dudas consulta el README.md
-numeroDeCuenta = ''
+numeroDeCuenta = '317690666'
 
 
 '''
@@ -59,8 +57,7 @@ def tarea0():
     # var_95 rounded to 6 decimals
     # is_normal 
     
-    #If you have any questions, see our video on Youtube
-    return 
+    return round(dm.median,4),round(dm.var_95,6),dm.is_normal 
 
 
 #NO MODIFICAR
